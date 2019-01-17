@@ -20,7 +20,7 @@ easily.
 How do I compile it?
 =============
 
-You'll need `meson`, `python3` and `ninja-build`. Once you have those, just run:
+You'll need `meson`, `python3`, `g++` and `ninja-build`. Once you have those, just run:
 
     mkdir build
     cd build
@@ -39,7 +39,7 @@ memory of a process that doesn't own)
 
 or
 
-    ./memory-dumper -p /path/to/file.ext
+    ./memory-dumper -f /path/to/file.ext
 
 to dump the content of a file.
 
